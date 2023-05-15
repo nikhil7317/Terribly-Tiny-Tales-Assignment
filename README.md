@@ -28,7 +28,7 @@ The application provides an "Export" button that allows you to download the word
 - [file-saver](https://github.com/eligrey/FileSaver.js/): A library that provides an easy way to save files on the client-side.
 
 ### Each line of code explaination step by step
-#################################################################
+
 import React, { useState } from 'react';
 import axios from 'axios';
 import { Bar } from 'react-chartjs-2';
@@ -43,7 +43,7 @@ axios is imported to make HTTP requests and fetch the text data.
 Bar is imported from 'react-chartjs-2' to display the histogram chart.
 saveAs is imported from 'file-saver' to enable file downloading functionality.
 ChartJS and registerables are imported from 'chart.js' to register the necessary plugins for Chart.js.
-####################################################################
+
 const Histogram = () => {
   const [wordFrequencies, setWordFrequencies] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
