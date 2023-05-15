@@ -37,7 +37,7 @@ import { saveAs } from 'file-saver';
 import { Chart as ChartJS, registerables } from 'chart.js';
 ChartJS.register(...registerables);
 
- This section imports the necessary dependencies for our application:
+ =>This section imports the necessary dependencies for our application:
 React and useState are imported from the 'react' library to enable the use of React components and state management.
 axios is imported to make HTTP requests and fetch the text data.
 Bar is imported from 'react-chartjs-2' to display the histogram chart.
@@ -49,12 +49,12 @@ const Histogram = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [showHistogram, setShowHistogram] = useState(false);
   
-  This section defines a functional component called Histogram. It uses the useState hook from React to define three state variables:
+ =>This section defines a functional component called Histogram. It uses the useState hook from React to define three state variables:
 wordFrequencies: Stores an array of word frequencies. Each entry in the array is a tuple containing a word and its frequency.
 isLoading: Represents the loading state of the application.
 showHistogram: Indicates whether the histogram chart should be displayed.
 
-#####################################################################
+
 const fetchData = async () => {
     setIsLoading(true);
     try {
@@ -86,7 +86,7 @@ const fetchData = async () => {
   };
 
 
-This section defines an asynchronous function fetchData. It is responsible for fetching the text data, calculating the word frequencies, and updating the state variables accordingly.
+=>This section defines an asynchronous function fetchData. It is responsible for fetching the text data, calculating the word frequencies, and updating the state variables accordingly.
 Inside the function:
 setIsLoading(true) sets the loading state to true to indicate that the data is being fetched.
 The axios.get method is used to make an HTTP GET request to the specified URL (https://www.terriblytinytales.com/test.txt) and retrieve the text data.
