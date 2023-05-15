@@ -11,3 +11,44 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.btn2 {
+  font-size: 20px;
+  padding: 15px 32px;
+  background-color: #e7bcbc;
+  margin-left: 45%;
+  text-shadow: 0cap;
+  border-radius: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  
+}
+.btn1 {
+  font-size: 20px;
+  padding: 15px 32px;
+  background-color: #e7bcbc;
+  margin-left: 45%;
+  text-shadow: 0cap;
+  border-radius: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  
+}
+.text-center{
+  text-align: center;
+  color: #8d1f17;
+  text-shadow: 2px 2px rgb(182, 226, 244);
+}
+.btn1 {
+  transition-duration: 0.4s;
+}
+
+.btn1:hover {
+  background-color: rgb(182, 226, 244);
+  color: #8d1f17;
+}
+.btn2 {
+  transition-duration: 0.4s;
+}
+
+.btn2:hover {
+  background-color: rgb(182, 226, 244);
+  color: #8d1f17;;
+}
